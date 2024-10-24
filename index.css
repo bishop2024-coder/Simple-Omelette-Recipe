@@ -1,0 +1,98 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin-top: 6%;
+  margin-bottom: 60px;
+}
+.container {
+  width: 48%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+#prep-time {
+  background-color: hsl(330, 100%, 98%);
+  padding-top: 20px;
+  line-height: 10px;
+}
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+h3 {
+  padding-left: 25px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+h2 {
+  color: hsl(32, 25%, 35%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+}
+tr {
+  border-bottom: 1px solid rgb(203, 200, 200);
+  line-height: 30px;
+}
+ul {
+  line-height: 30px;
+  font-family: "Outfit", sans-serif;
+}
+.list1 {
+  list-style: none;
+}
+.list1 li::before {
+  content: "\2022";
+  color: purple;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-left: 10px;
+}
+.list2 {
+  list-style: none;
+  border-bottom: 1px solid rgb(203, 200, 200);
+  padding-bottom: 20px;
+}
+.list2 li::before {
+  content: "\2022";
+  color: hsl(32, 25%, 35%);
+  font-weight: bold;
+  display: inline-block;
+  width: 2.5em;
+  margin-left: -2.5em;
+}
+ol {
+  list-style: none;
+  border-bottom: 1px solid rgb(203, 200, 200);
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.number {
+  color: hsl(32, 25%, 35%);
+  font-weight: bold;
+  display: inline-block;
+  width: 2.5em;
+  margin-left: -2.5em;
+}
+.ol {
+  padding-bottom: 19px;
+}
+.color {
+  color: hsl(32, 22%, 27%);
+  font-weight: bold;
+}
